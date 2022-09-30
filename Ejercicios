@@ -1,0 +1,47 @@
+public class main {
+  public static void main(String[[] args){
+  
+    var numeroif = 3;
+    
+    if(numeroif < 0){
+    System.out.println("numeroif es negativo);
+     else if(numeroif > 0){
+      System.out.println("numeroif es positivo");
+       else 
+        System.out.println("numeroif es igual a 0");
+        
+     } 
+    } 
+    
+   var numerowhile = 0;
+    
+    while(numerowhile < 3)
+   {
+      System.out.println(numerowhile);
+      numerowhile = numerowhile + 1;
+      
+   }
+   
+   
+   do{
+    System.out.println(numerowhile);
+    } while(numerowhile < 3);
+    
+    var estacion = "verano" ;
+     
+     switch(estacion){
+        case "verano":
+          System.out.println("es verano");
+          break;
+        case "invierno":
+          System.out.println("es invierno");
+          break;
+        case "primavera":
+          System.out.println("es primavera");
+          break;
+        case "otono":
+          System.out.println("es otono");
+          break;
+         default:
+          System.out.println("incorrecto");
+      }    
